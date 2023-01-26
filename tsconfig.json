@@ -16,18 +16,14 @@
     "skipLibCheck": true,
     "noEmit": true,
     "composite": true,
-    "allowSyntheticDefaultImports": true,
-    "paths": {
-      "c/*": [
-        "./src/components/*"
-      ]
-    }
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "src/*.vue",
     "vite.conf.ts"
   ]
 }
